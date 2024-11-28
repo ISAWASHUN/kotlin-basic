@@ -3,10 +3,9 @@ data class User(var name: String, var age: Int)
 
 fun main() {
     val user = User("Alice", 25)
-    
     user.apply { 
-        name = "Bob"  // カンマを削除
-        age = 30      // カンマを削除
+        name = "Bob"  
+        age = 30
     }
 
     user.let { 
