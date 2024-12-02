@@ -17,5 +17,3 @@ val userId = UserId("user123")
 val productId = ProductId("product456")
 println(getUserById(userId))
 println(getProductById(productId))
-
-kk
